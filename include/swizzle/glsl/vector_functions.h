@@ -77,6 +77,6 @@ SWIZZLE_FORWARD_FUNC(equal)
 SWIZZLE_FORWARD_FUNC(notEqual)
 SWIZZLE_FORWARD_FUNC(any)
 SWIZZLE_FORWARD_FUNC(all)
-SWIZZLE_FORWARD_FUNC(not)
+//SWIZZLE_FORWARD_FUNC(not) // `not` is a reserved keyword. Disable for a while.
 
 #undef SWIZZLE_FORWARD_FUNC
